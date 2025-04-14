@@ -145,18 +145,18 @@ const team = [
     name: "Maria Johnson",
     role: "Founder & Head Baker",
     bio: "With over 20 years of experience in artisanal baking, Maria brings passion and expertise to every recipe at Sweet Delights.",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/Maria Johnson.png",
   },
   {
     name: "David Chen",
     role: "Pastry Chef",
     bio: "A graduate of the prestigious Culinary Institute, David specializes in creating exquisite pastries that are as beautiful as they are delicious.",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/David chen.png",
   },
   {
     name: "Sarah Williams",
     role: "Bread Specialist",
     bio: "Sarah's dedication to traditional bread-making techniques and natural fermentation results in our signature artisan loaves.",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/Sara williams.png",
   },
 ];

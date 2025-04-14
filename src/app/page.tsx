@@ -13,6 +13,12 @@ export default function Home() {
       <main className="flex-1">
         {/* Hero Section */}
         <section className="hero-section relative h-[600px] flex items-center justify-center">
+          <Image
+            src="/images/Hero.png"
+            alt="Sweet Delights Bakery"
+            fill
+            className="object-cover"
+          />
           <div className="absolute inset-0 bg-black/40" />
           <div className="container relative z-10 text-white">
             <div className="max-w-2xl mx-auto space-y-6 text-center">
@@ -250,14 +256,14 @@ const featuredProducts = [
     description:
       "Traditional sourdough bread with a crispy crust and soft interior.",
     price: 6.99,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/artisan sourdough.png",
   },
   {
     id: 2,
     name: "Chocolate Croissant",
     description: "Buttery, flaky croissant filled with rich chocolate.",
     price: 3.99,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/chocolate croissant.png",
   },
   {
     id: 3,
@@ -265,7 +271,7 @@ const featuredProducts = [
     description:
       "Sweet pastry crust filled with vanilla custard and topped with fresh strawberries.",
     price: 5.99,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/Strawberry tart.png",
   },
 ];
 

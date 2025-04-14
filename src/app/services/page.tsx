@@ -21,7 +21,7 @@ export default function ServicesPage() {
         {/* Hero Section */}
         <section className="relative h-[400px]">
           <Image
-            src="/placeholder.svg?height=800&width=1600"
+            src="/images/Our services.png"
             alt="Our services"
             fill
             className="object-cover"
@@ -154,7 +154,7 @@ export default function ServicesPage() {
               </div>
               <div className="relative h-[400px] rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=800&width=600"
+                  src="/images/custom cake.png"
                   alt="Custom cake"
                   fill
                   className="object-cover"
@@ -170,7 +170,7 @@ export default function ServicesPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1 relative h-[400px] rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=800&width=600"
+                  src="/images/catering display.png"
                   alt="Catering display"
                   fill
                   className="object-cover"
@@ -278,7 +278,7 @@ export default function ServicesPage() {
               </div>
               <div className="relative h-[400px] rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=800&width=600"
+                  src="/images/baking workshop.png"
                   alt="Baking workshop"
                   fill
                   className="object-cover"
