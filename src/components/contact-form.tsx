@@ -84,6 +84,7 @@ export function ContactForm() {
       toast.error(
         "There was a problem sending your message. Please try again."
       );
+      console.log(error);
     } finally {
       setIsSubmitting(false);
     }

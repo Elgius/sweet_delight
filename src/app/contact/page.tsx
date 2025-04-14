@@ -20,9 +20,9 @@ export default function ContactPage() {
               Contact Us
             </h1>
             <p className="text-center text-gray-600 max-w-2xl mx-auto mb-8">
-              We'd love to hear from you! Whether you have a question about our
-              products, want to place a custom order, or just want to say hello,
-              we're here to help.
+              We would love to hear from you! Whether you have a question about
+              our products, want to place a custom order, or just want to say
+              hello, we are here to help.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

@@ -155,7 +155,9 @@ export default function Home() {
                         />
                       ))}
                     </div>
-                    <p className="text-gray-700 mb-4">"{testimonial.text}"</p>
+                    <p className="text-gray-700 mb-4">
+                      &quot;{testimonial.text}&quot;
+                    </p>
                     <div className="flex items-center">
                       <div className="relative h-10 w-10 rounded-full overflow-hidden mr-3">
                         <Image

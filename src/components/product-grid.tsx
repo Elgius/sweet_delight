@@ -135,7 +135,7 @@ export function ProductGrid() {
 
     setProducts(filtered);
   }, []);
-
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleAddToCart = (product: any) => {
     addItem({
       id: product.id,

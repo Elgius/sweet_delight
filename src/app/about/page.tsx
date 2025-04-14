@@ -127,7 +127,7 @@ export default function AboutPage() {
                   <p className="text-gray-600">
                     While respecting tradition, we continuously explore new
                     flavors, techniques, and dietary options to meet our
-                    customers' evolving tastes.
+                    customers evolving tastes.
                   </p>
                 </div>
               </div>

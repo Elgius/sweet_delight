@@ -19,7 +19,7 @@ import { Trash2 } from "lucide-react";
 
 export default function CheckoutPage() {
   const router = useRouter();
-  const { items, removeItem, updateQuantity, clearCart, subtotal } = useCart();
+  const { items, removeItem, clearCart, subtotal } = useCart();
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -150,6 +150,7 @@ export default function CheckoutPage() {
         description:
           "There was a problem processing your order. Please try again.",
       });
+      console.error(error);
       setIsSubmitting(false);
     }
   };

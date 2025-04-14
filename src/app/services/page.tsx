@@ -116,7 +116,7 @@ export default function ServicesPage() {
                   Custom Orders
                 </h2>
                 <p className="text-gray-700">
-                  Whether you're celebrating a birthday, wedding, anniversary,
+                  Whether you are celebrating a birthday, wedding, anniversary,
                   or any special occasion, our custom-made cakes and pastries
                   will make your event memorable.
                 </p>
@@ -249,7 +249,7 @@ export default function ServicesPage() {
                 </p>
                 <p className="text-gray-700">
                   Each workshop includes all necessary ingredients, equipment,
-                  and detailed instructions. You'll leave with new skills,
+                  and detailed instructions. You will leave with new skills,
                   recipes, and your freshly baked creations.
                 </p>
                 <div className="space-y-4">
@@ -314,7 +314,9 @@ export default function ServicesPage() {
                         </p>
                       </div>
                     </div>
-                    <p className="text-gray-700 italic">"{testimonial.text}"</p>
+                    <p className="text-gray-700 italic">
+                      &quot;{testimonial.text}&quot;
+                    </p>
                   </CardContent>
                 </Card>
               ))}
@@ -328,7 +330,7 @@ export default function ServicesPage() {
             <h2 className="text-3xl font-bold mb-4">Ready to Work with Us?</h2>
             <p className="max-w-2xl mx-auto mb-8">
               Whether you need a custom cake, catering for your next event, or
-              want to join one of our workshops, we're here to help make your
+              want to join one of our workshops, we are here to help make your
               experience special.
             </p>
             <Button

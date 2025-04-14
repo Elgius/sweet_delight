@@ -57,9 +57,11 @@ export default function ProductDetailPage() {
   const params = useParams();
   const router = useRouter();
   const { addItem } = useCart();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [product, setProduct] = useState<any>(null);
   const [quantity, setQuantity] = useState(1);
   const [loading, setLoading] = useState(true);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [relatedProducts, setRelatedProducts] = useState<any[]>([]);
 
   useEffect(() => {
@@ -127,7 +129,7 @@ export default function ProductDetailPage() {
           <div className="text-center py-12">
             <h1 className="text-2xl font-bold mb-4">Product Not Found</h1>
             <p className="mb-6">
-              Sorry, the product you're looking for doesn't exist.
+              Sorry, the product you are looking for does not exist.
             </p>
             <Button
               onClick={() => router.push("/products")}
