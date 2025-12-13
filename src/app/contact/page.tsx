@@ -44,9 +44,9 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-semibold">Address</h3>
                         <address className="not-italic text-gray-600">
-                          123 Bakery Lane
+                          5GG4+W35, 2 Fulooniyaa Magu
                           <br />
-                          Flourville, CA 90210
+                          Malé, Maldives
                         </address>
                       </div>
                     </div>
@@ -82,12 +82,16 @@ export default function ContactPage() {
                 </div>
 
                 <div className="relative h-[300px] rounded-lg overflow-hidden">
-                  {/* This would be replaced with an actual map in a real implementation */}
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <p className="text-gray-500">
-                      Interactive Map Would Be Here
-                    </p>
-                  </div>
+                  <iframe
+                    src="https://maps.google.com/maps?q=5GG4%2BW35%2C+2+Fulooniyaa+Magu%2C+Malé&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Sweet Delights Bakery Location"
+                  />
                 </div>
               </div>
             </div>
