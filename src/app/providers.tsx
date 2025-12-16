@@ -2,7 +2,12 @@
 
 import type { ReactNode } from "react";
 import { CartProvider } from "@/hooks/use-cart";
+import { AdminAuthProvider } from "@/hooks/use-admin-auth";
 
 export function Providers({ children }: { children: ReactNode }) {
-  return <CartProvider>{children}</CartProvider>;
+  return (
+    <CartProvider>
+      <AdminAuthProvider>{children}</AdminAuthProvider>
+    </CartProvider>
+  );
 }
